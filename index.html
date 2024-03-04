@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+ <header>
+ 	<div class="centerhead">
+ 	<span style="text-align: center;">
+ 		Угадай число от 1 до 10000<br>
+ 		и наши загадки!
+ 	</span>
+ </div>
+ </header>
+ <div class="form">
+<div class="rightpart">
+ 	<div class="okno">
+ 	<input type="number" id="userGuess" placeholder="Введите ваше число здесь" style="height: 50px; width: 200px">
+    </div>
+<div class="knopka">
+ <button onclick="checkGuess()" style="font-size: 40px;">Проверить число</button>
+</div>
+<div class="vivod">
+ <p id="result" style="font-size: 20px;" ></p>
+</div>
+ </div>
+ <div class="leftpart">
+	<p style="font-size: 20px;" >И зайченок, и волчица <br> - все идут к нему лечиться!</p>
+	<input type="text" id="aibolit" placeholder="Введите ответ" style="height: 40px; width: 200px">
+	<br>
+	<button onclick="result1()">проверить</button>
+	<br>
+	<div class="imagen">
+	<img id="resultImage1" src="placeholder.gif" alt="Результат"/>
+	<p id="result1" style="font-size: 20px;"></p>
+	</div>
+	<br>
+	<p style="font-size: 20px;" >Выгнул спинку он дугой <br> - Замяукал. Кто такой?</p>
+	<input type="text" id="kot" placeholder="Введите ответ" style="height: 40px; width: 200px">
+	<br>
+	<button onclick="result2()">проверить</button>
+	<br>
+	<div class="imagen">
+	<img id="resultImage2" src="placeholder.gif" alt="Результат"/>
+	<p id="result2" style="font-size: 20px;"></p>
+	</div>
+	<br>
+	<p style="font-size: 20px;" >Висит на ветке гладкое <br> - румяное и сладкое</p>
+	<input type="text" id="aple" placeholder="Введите ответ" style="height: 40px; width: 200px">
+	<br>
+	<button onclick="result3()">проверить</button>
+	<br>
+	<div class="imagen">
+	<img id="resultImage3" src="placeholder.gif" alt="Результат"/>
+	<p id="result3" style="font-size: 20px;"></p>
+	</div>
+	<br>
+	<p style="font-size: 20px;" >Он пищит, когда летает <br> - Острым носиком кусает!</p>
+	<input type="text" id="komar" placeholder="Введите ответ" style="height: 40px; width: 200px">
+	<br>
+	<button onclick="result4()">проверить</button>
+	<br>
+	<div class="imagen">
+	<img id="resultImage4" src="placeholder.gif" alt="Результат"/>
+	<p id="result4" style="font-size: 20px;"></p>
+	</div>
+	<br>
+	<p style="font-size: 20px;" >Нашел пять ягодок в траве <br> И съел одну, осталось...</p>
+	<input type="text" id="dve" placeholder="Введите ответ" style="height: 40px; width: 200px">
+	<br>
+	<button onclick="result5()">проверить</button>
+	<br>
+	<div class="imagen">
+	<img id="resultImage5" src="placeholder.gif" alt="Результат"/>
+	<p id="result5" style="font-size: 20px;"></p>
+	</div>
+</div>
+</div>
+</body>
+</html>
